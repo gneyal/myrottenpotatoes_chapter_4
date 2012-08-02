@@ -1,2 +1,3 @@
 {"ts":1343910890533,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class MoviesController < ApplicationController\n  def index\n    @movies = Movie.all\n  end\n\n  def show \n    id = params[:id]\n    @movie = Movie.find(id)\n  end\n\n  def new\n    \n  end\n\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":184}]],"length":184}
 {"contributors":[],"silentsave":false,"ts":1343910928423,"patch":[[{"diffs":[[1,"sdf"],[0,"class Mo"]],"start1":0,"start2":0,"length1":8,"length2":11}]],"length":187,"saved":false}
+{"ts":1343911129428,"patch":[[{"diffs":[[-1,"sdf"],[0,"clas"]],"start1":0,"start2":0,"length1":7,"length2":4}]],"length":184,"saved":false}
